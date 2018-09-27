@@ -8,34 +8,34 @@ if Prefs["area"] == 'gay':
 	AREA =			 '/gay'
 
 PH_VIDEO_URL =				BASE_URL + '/video'
-PH_VIDEO_BROWSE_URL =	   BASE_URL + AREA + '/video'
+PH_VIDEO_BROWSE_URL =		BASE_URL + AREA + '/video'
 PH_VIDEO_SEARCH_URL =		BASE_URL + AREA + '/video/search?search=%s'
 
 PH_USER_HOVER_URL =		BASE_URL + '/user/hover?id=%s'
 
 MAX_VIDEOS_PER_PAGE =			44
 MAX_VIDEOS_PER_PAGE_PAGE_ONE =	32
-MAX_VIDEOS_PER_SEARCH_PAGE =		20
+MAX_VIDEOS_PER_SEARCH_PAGE =	20
 MAX_VIDEOS_PER_CHANNEL_PAGE =	36
 MAX_VIDEOS_PER_PORNSTAR_PAGE =	36
 MAX_VIDEOS_PER_USER_PAGE =		48
 
 SORT_ORDERS = OrderedDict([
-	('Most Recent',					{'o':'mr'}),
-	('Most Viewed - All Time',		{'o':'mv', 't':'a'}),
+	('Most Recent',						{'o':'mr'}),
+	('Most Viewed - All Time',			{'o':'mv', 't':'a'}),
 	('Most Viewed - This Month',		{'o':'mv', 't':'m'}),
-	('Most Viewed - This Week',		{'o':'mv', 't':'w'}),
-	('Most Viewed - Today',			{'o':'mv', 't':'t'}),
+	('Most Viewed - This Week',			{'o':'mv', 't':'w'}),
+	('Most Viewed - Today',				{'o':'mv', 't':'t'}),
 	('Top Rated - All Time',			{'o':'tr', 't':'a'}),
-	('Top Rated - This Month',		{'o':'tr', 't':'m'}),
+	('Top Rated - This Month',			{'o':'tr', 't':'m'}),
 	('Top Rated - This Week',			{'o':'tr', 't':'w'}),
-	('Top Rated - Today',			{'o':'tr', 't':'t'}),
+	('Top Rated - Today',				{'o':'tr', 't':'t'}),
 	('Most Discussed - All Time',		{'o':'md', 't':'a'}),
-	('Most Discussed - This Month',	{'o':'md', 't':'m'}),
+	('Most Discussed - This Month',		{'o':'md', 't':'m'}),
 	('Most Discussed - This Week',		{'o':'md', 't':'w'}),
-	('Most Discussed - Today',		{'o':'md', 't':'t'}),
-	('Being Watched',				{'o':'bw'}),
-	('Longest',					{'o':'lg'})
+	('Most Discussed - Today',			{'o':'md', 't':'t'}),
+	('Being Watched',					{'o':'bw'}),
+	('Longest',							{'o':'lg'})
 ])
 
 CHANNEL_VIDEOS_SORT_ORDERS = OrderedDict([

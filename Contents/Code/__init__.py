@@ -46,7 +46,7 @@ def MainMenu():
 		('Channels',			{'function':BrowseChannels}),
 		('Porn Stars',			{'function':BrowsePornStars}),
 		('Playlists',			{'function':BrowsePlaylists}),
-		('Members',			{'function':BrowseMembers}),
+		('Members',				{'function':BrowseMembers}),
 		('Search',				{'function':SearchVideos, 'search':True, 'directoryObjectArgs':{'prompt':'Search for...','summary':'Enter Search Terms'}})
 	])
 	

@@ -73,7 +73,7 @@ def GetVideos(url):
 
 			videos.append(video)
 		except:
-			Log("Error encountered with one of the videos... skipping.")
+			Log("Error encountered with one of the videos... skipping." + url)
 			pass
 	return videos
 

@@ -17,8 +17,8 @@
 		"id":		"area",
 		"label":	"Area",
 		"type":	"enum",
-		"values":	["straight", "gay"],
-		"default":	"straight"
+		"values":	["", "gay"],
+		"default":	""
 	},
 	{
 		"id":		"videoMenuShowThumbnails",
